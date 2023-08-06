@@ -18,15 +18,15 @@
                 },
                 "rules": [
                     {
-                        "description": "Launch MacPass with M-s-p",
+                        "description": "Launch MacPass with C-P",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
-                                            "left_option"
+                                            "left_control",
+                                            "left_shift"
                                         ],
                                         "optional": [
                                             "caps_lock"
