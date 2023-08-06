@@ -43,15 +43,15 @@
                         ]
                     },
 		    {
-                        "description": "Launch a terminal with M-s-t",
+                        "description": "Launch a terminal with C-T",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "t",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
-                                            "left_option"
+                                            "left_control",
+                                            "left_shift"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -60,14 +60,14 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Terminal ~/dev"
+                                        "shell_command": "open -a Terminal ~/"
                                     }
                                 ],
                                 "type": "basic"
                             }
                         ]
                     },
-                    {
+		    {
                         "description": "Toggle caps-lock if right_shift pressed 2x",
                         "manipulators": [
                             {
